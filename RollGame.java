@@ -7,6 +7,8 @@ public class RollGame {
         int rolls = 5;
         int spaces = 20;
         int spaceSum = 0;
+        
+        System.out.println("Welcome to Roll the Die! Let the game begin...");
 
         Random random = new Random();
 
