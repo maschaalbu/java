@@ -1,7 +1,7 @@
 import java.util.Scanner;
  
 
-public class Bill {
+public class PhoneBill {
 	
 	static Scanner scanner = new Scanner(System.in);
 	static double bill = getBill();
