@@ -17,9 +17,12 @@ public class DayOfTheWeek {
 			if(number == i+1) {
 				
 				System.out.print(week[i]);
+				
 			}
 			
 		}
+		
+		//or System.out.println("Corresponding day: " + week[index - 1]);
 		
 	}
 	
