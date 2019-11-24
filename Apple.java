@@ -2,6 +2,10 @@ package chapter9;
 
 public class Apple extends Fruit{
 	
+	 public Apple(){
+        setCalories(95);
+    }
+	
 	public void removeSeeds() {
 		System.out.println("Removing seeds");
 	}
