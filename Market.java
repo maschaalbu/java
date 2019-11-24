@@ -20,6 +20,14 @@ public class Market {
 	        slice(greena);
 		slice(bananana);
 		slice(greenApple);  
+		
+		Fruit yellowapple = new Banana();
+		yellowapple.makeJuice();
+		
+		yellowapple = new Apple();
+		yellowapple.makeJuice();
+		
+		
 	}
 		public static void slice(Fruit fruit) {
 		if(fruit instanceof Apple) {
@@ -29,5 +37,7 @@ public class Market {
 			System.out.println("Here is your sliced banana");
 		}
 	}
+	
+	
 
 }
