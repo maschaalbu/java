@@ -17,15 +17,11 @@ public class Market {
 		bananana.peel();
 		bananana.makeJuice();
 		
-		greena.slice();
-		bananana.slice();
-		greenApple.slice();
-		
-		
-
+	        slice(greena);
+		slice(bananana);
+		slice(greenApple);  
 	}
-	
-	public static void slice(Fruit fruit) {
+		public static void slice(Fruit fruit) {
 		if(fruit instanceof Apple) {
 			System.out.println("Here is your sliced apple");
 		}
