@@ -2,6 +2,10 @@ package chapter9;
 
 public class Banana extends Fruit{
 	
+	 public Banana(){
+        setCalories(105);
+    }
+	
 	public void peel() {
 		System.out.println("Peeling banana");
 	}
