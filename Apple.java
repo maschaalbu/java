@@ -3,7 +3,7 @@ package chapter9;
 public class Apple extends Fruit{
 	
 	 public Apple(){
-        setCalories(95);
+        setCalories(91);
     }
 	
 	public void removeSeeds() {
