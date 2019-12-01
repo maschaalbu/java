@@ -1,0 +1,31 @@
+import java.util.Random;
+
+public class Coin {
+ public  String side;
+ protected static String HEADS = "heads";
+ protected static String TAILS = "tails";
+ 
+ 
+ 
+ public String getSide() {
+	return side;
+}
+
+public void setSide(String side) {
+	this.side = side;
+}
+
+public  String flipCoin() {
+	Random random = new Random();
+	if(random.nextBoolean()) {
+		setSide(HEADS);
+	}
+	else setSide(TAILS);
+	
+	return getSide();
+	 
+ }
+
+ 
+ 
+}
